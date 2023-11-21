@@ -1,0 +1,26 @@
+{
+  "name": "hash-data-manager",
+  "version": "0.0.2",
+  "description": "A module for handling data in the URL hash",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/niceaji/hash-data-manager.git"
+  },
+  "keywords": [
+    "hash",
+    "data",
+    "url",
+    "manager"
+  ],
+  "author": "niceaji",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/niceaji/hash-data-manager/issues"
+  },
+  "homepage": "https://github.com/niceaji/hash-data-manager"
+}
