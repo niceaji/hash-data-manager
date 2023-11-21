@@ -1,6 +1,6 @@
 {
   "name": "hash-data-manager",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "A module for handling data in the URL hash",
   "main": "index.js",
   "scripts": {

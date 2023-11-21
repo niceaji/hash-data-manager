@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hash-data-manager</title>
+  </head>
+  <body>
+    <h1>
+      <a href="https://www.npmjs.com/package/hash-data-manager"
+        >hash-data-manager</a
+      >
+    </h1>
+    <input id="saveInput" type="text" value='{"text":"hello world😀"}' />
+    <button id="save">Save</button>
+
+    <hr />
+    <input id="loadInput" type="text" value="" />
+    <button id="load">Load</button>
+
+    <script type="module">
+      import * as hashManager from './index.js';
+
+      document.getElementById('save').addEventListener('click', () => {
+        hashManager.save(document.getElementById('saveInput').value);
+      });
+
+      document.getElementById('load').addEventListener('click', () => {
+        const hash = hashManager.load();
+        console.log(hash, JSON.parse(hash));
+
+        document.getElementById('loadInput').value = hash;
+      });
+    </script>
+  </body>
+</html>

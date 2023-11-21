@@ -2,6 +2,8 @@
 
 A simple module for handling data in the URL hash. This module provides functions to load and save data from/to the URL hash.
 
+[Demo](https://unpkg.com/hash-data-manager@0.0.3/demo.html)
+
 ## Installation
 
 You can install the module using npm:
